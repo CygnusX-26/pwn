@@ -34,8 +34,9 @@ RUN echo "PermitRootLogin yes\nPasswordAuthentication yes\nPermitEmptyPasswords 
 # ZSH
 RUN wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh && \
   sh install.sh
-
 COPY ./zshrc ~/.zshrc
+RUN echo 'alias python3="/pwn-venv/bin/python3"' >> ~/.zshrc
+RUN echo 'alias pip="/pwn-venv/bin/pip"' >> ~/.zshrc
 
 RUN echo "set-option -g default-shell $SHELL" > ~/.tmux.conf
 
