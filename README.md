@@ -2,6 +2,10 @@
 
 ## Getting started
 
+Prereqs:
+ - Install Docker
+ - Install Colima
+
 Start colima with
 
 ```sh
