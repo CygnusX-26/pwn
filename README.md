@@ -2,6 +2,12 @@
 
 ## Getting started
 
+Start colima with
+
+```sh
+./start-colima.sh
+```
+
 Start the container with:
 ```sh
 ./start.sh
