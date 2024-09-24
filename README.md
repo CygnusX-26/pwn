@@ -1,5 +1,5 @@
 # cygnusx26/pwn
-
+Running gdb on an arm64 mac is hard...
 ## Getting started
 
 Prereqs:
