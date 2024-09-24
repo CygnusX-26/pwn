@@ -5,6 +5,9 @@
 Prereqs:
  - Install Docker
  - Install Colima
+```sh
+brew install colima
+```
 
 Start colima with
 
