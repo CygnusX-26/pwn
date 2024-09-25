@@ -38,7 +38,7 @@ COPY ./zshrc ~/.zshrc
 RUN echo 'alias python3="/pwn-venv/bin/python3"' >> ~/.zshrc
 RUN echo 'alias pip="/pwn-venv/bin/pip"' >> ~/.zshrc
 
-RUN echo "set-option -g default-shell $SHELL" > ~/.tmux.conf
+RUN echo "set-option -g default-shell $SHELL" >> ~/.tmux.conf
 RUN echo "set -g mouse on" >> ~/.tmux.conf
 
 # pwn-venv setup
